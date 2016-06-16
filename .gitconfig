@@ -1,0 +1,38 @@
+[core]
+	editor = vim
+[user]
+	name = dem4ply
+	email = dem4ply@gmail.com
+	signingkey = A12E448C
+[color]
+	ui = true
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[color "status"]
+	changed = yellow
+[color "diff"]
+	meta = yellow bold
+	frag = blue bold
+	old = red bold
+	new = green bold
+[diff]
+	tool = vimdiff
+[merge]
+	tool = diffconflicts
+[difftool]
+	prompt = false
+[alias]
+	lg = log --graph --decorate --all --abbrev-commit --decorate --date=relative --format=format:'%C(auto)%h%C(reset) - %C(bold green)%s %C(dim white) - %C(dim green)(%ar)%C(reset) - %C(auto)<%an> %C(auto)%d'
+	diff-today = !git rev-list --all --reverse --since yesterday | head -n 1 | awk '{print ($1\"..HEAD\")}' | xargs git diff
+	meow = status
+	wtf = status
+	what = diff
+	huh = diff
+[mergetool "diffconflicts"]
+	keepBackup = true
+	trustExitCode = true
+	cmd = diffconflicts vim $BASE $LOCAL $REMOTE $MERGED
+[push]
+	default = simple
