@@ -1,0 +1,8 @@
+[gnome_session]
+profile = 
+
+[general]
+profile = dem4ply
+integration = true
+backend = ini
+

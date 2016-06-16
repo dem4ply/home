@@ -1,0 +1,7 @@
+[compiz options]
+loose binding = true
+indirect rendering = false
+
+[window manager]
+active wm = compiz
+
