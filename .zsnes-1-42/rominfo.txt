@@ -1,0 +1,6 @@
+This is the info for the last game you ran.
+
+File: Magical Drop 2 (J).zip Header: Yes
+MAGICAL DROP 2          TYPE:NORMAL     
+INTERLEAVED:No    BANK:Hi    CHKSUM:OK  
+VIDEO:NTSC                CRC32:2CF5094C

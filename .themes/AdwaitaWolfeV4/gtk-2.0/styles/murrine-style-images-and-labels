@@ -1,0 +1,23 @@
+style "murrinestyle1"
+{
+	engine "murrine" {
+textstyle = 1
+
+}}
+
+widget_class "*<GtkImage>*" style "murrinestyle1"
+widget_class "*.<GtkLabel>" style:highest "murrinestyle1"
+widget_class "*.<GtkComboBox>*.<GtkCellView>" style:highest "murrinestyle1"
+
+
+style "murrinestyle2"
+{
+
+	engine "murrine" {
+textstyle = 3
+text_shade = 0.0
+}}
+
+widget_class "*.<GtkMenuItem>.*" style:highest "murrinestyle2"
+widget_class	"*<GtkMenuBar>*<GtkLabel>*" style:highest "murrinestyle2"
+widget_class "*CPUFreqApplet*" style:highest "murrinestyle2"

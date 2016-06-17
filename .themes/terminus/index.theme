@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=index.theme.foo
+Name[en_CA]=index.theme.foo
+
+[X-GNOME-Metatheme]
+Name=terminus
+Type=X-GNOME-Metatheme
+Comment=terminal theme
+Encoding=UTF-8
+GtkTheme=terminus
+MetacityTheme=terminus
+IconTheme=AnyColorYouLike

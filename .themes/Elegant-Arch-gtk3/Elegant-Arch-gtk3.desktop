@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Elegant-Arch-gtk3
+Comment=Elegant Arch theme for gtk3, by mrmars
+
+Name[en_US]=Elegant-Arch-gtk3
+
+[X-GNOME-Metatheme]
+GtkTheme=Elegant-Arch-gtk3
+MetacityTheme=Elegant-Arch-gtk3
+IconTheme=gnome
+CursorTheme=DMZ-White
