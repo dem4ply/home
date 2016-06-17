@@ -1,0 +1,2 @@
+#configuracion de conky-color
+conky-colors --lang=es --theme=radiance --arch --cpu=4 --cputemp --swap --hd=mix --hdtemp1=sda --mpd --unit=C
