@@ -32,6 +32,9 @@ alias ls='ls --color=auto'
 alias clear='clear; fortune -c | ponysay'
 bind -x '"\C-l": clear'
 
+# curl
+alias curl='curl -w "\n"'
+
 # grep
 export GREP_COLOR="1;33"
 alias grep='grep --color=auto'
