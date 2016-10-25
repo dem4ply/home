@@ -26,10 +26,10 @@
 [alias]
 	lg = log --graph --decorate --all --abbrev-commit --decorate --date=relative --format=format:'%C(auto)%h%C(reset) - %C(bold green)%s %C(dim white) - %C(dim green)(%ar)%C(reset) - %C(auto)<%an> %C(auto)%d'
 	diff-today = !git rev-list --all --reverse --since yesterday | head -n 1 | awk '{print ($1\"..HEAD\")}' | xargs git diff
-	meow = status
-	wtf = status
+	meow = status -s
+	wtf = status -b
 	what = diff
-	huh = diff
+	huh = diff --staged
 [mergetool "diffconflicts"]
 	keepBackup = true
 	trustExitCode = true
