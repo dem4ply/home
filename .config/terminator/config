@@ -28,13 +28,23 @@
   ungroup_tab = <Primary><Shift><Alt>F9
 [layouts]
   [[default]]
-    [[[child1]]]
-      parent = window0
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 5f73843f-f27e-422c-8d7b-5dee837e1094
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:30
+      size = 1920, 1027
+      title = /bin/bash
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
       profile = default
       type = Terminal
-    [[[window0]]]
-      parent = ""
-      type = Window
+      uuid = 5f73843f-f27e-422c-8d7b-5dee837e1094
   [[dem4ply]]
     [[[child0]]]
       order = 0
@@ -129,6 +139,130 @@
       parent = child7
       profile = default
       type = Terminal
+  [[minitops]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 3d98cf3c-8d9b-4766-bc51-46c2192a2393
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1920:0
+      size = 1366, 745
+      title = /bin/bash
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 85
+      ratio = 0.119463087248
+      type = VPaned
+    [[[child12]]]
+      fullscreen = False
+      last_active_term = 0e504355-981f-4ee5-8fb3-855ea35575bd
+      last_active_window = False
+      maximised = True
+      order = 0
+      parent = ""
+      position = 3286:2190
+      size = 1920, 1027
+      title = /bin/bash
+      type = Window
+    [[[child14]]]
+      fullscreen = False
+      last_active_window = False
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:30
+      size = 1920, 1027
+      title = /bin/bash
+      type = Window
+    [[[child15]]]
+      active_page = 0
+      labels = None, /bin/bash
+      last_active_term = 83fd2de4-30d1-4868-b999-a1b63c9c2388, ae530ab2-372b-4a4e-86b8-3ba30715cf1a
+      order = 0
+      parent = child14
+      type = Notebook
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 90
+      ratio = 0.144171779141
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child3
+      position = 83
+      ratio = 0.157039711191
+      type = VPaned
+    [[[child7]]]
+      order = 1
+      parent = child5
+      position = 84
+      ratio = 0.190064794816
+      type = VPaned
+    [[[child9]]]
+      order = 1
+      parent = child7
+      position = 79
+      ratio = 0.22371967655
+      type = VPaned
+    [[[terminal10]]]
+      order = 0
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = d12e49cc-4eff-4fa1-92ea-dbb640c0cb11
+    [[[terminal11]]]
+      order = 1
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = 3d98cf3c-8d9b-4766-bc51-46c2192a2393
+    [[[terminal13]]]
+      order = 0
+      parent = child12
+      profile = default
+      type = Terminal
+      uuid = 0e504355-981f-4ee5-8fb3-855ea35575bd
+    [[[terminal16]]]
+      order = 0
+      parent = child15
+      profile = default
+      type = Terminal
+      uuid = 83fd2de4-30d1-4868-b999-a1b63c9c2388
+    [[[terminal17]]]
+      order = 1
+      parent = child15
+      profile = default
+      type = Terminal
+      uuid = ae530ab2-372b-4a4e-86b8-3ba30715cf1a
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 4472d734-e160-490c-b8e2-3cb622462c06
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 065eb01e-4284-4260-bfbf-85c52c32d7f5
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 158ae00e-7f40-416a-a55f-98e24a0e49d2
+    [[[terminal8]]]
+      order = 0
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = 264490dc-bf68-4149-ac94-c0d7f3e07d73
 [plugins]
 [profiles]
   [[default]]

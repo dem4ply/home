@@ -10,6 +10,9 @@ export XDG_CONFIG_HOME="$HOME/.config"
 #para que firefox no este lento
 export MOZ_DISABLE_PANGO=1
 export ANDROID_HOME="$HOME/Android/Sdk"
+
+#django default logger INFO
+export DJANGO_LOG_LEVEL="INFO"
 # para inportar las gem de ruby
 PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
 
@@ -18,6 +21,12 @@ export EDITOR=vim
 
 #PS1='\[\e[1;32m\]┌──[\u]─\[\e[m\]\[\e[1;34m\]─[\w]\[\e[m\]\n\[\e[0;32m\]└─>$ \[\e[m\]\[\e[1;32m\] '
 #PS1='┌─[\[\e[1;34m\]\w\[\e[1;32m\]]\[\e[m\]\n\[\e[1;32m\]└─>\u\[\e[m\] \[\e[0;32m\]\$ \[\e[m\]\[\e[1;32m\] '
+
+
+# history ignora ls, pwd y date
+export HISTIGNORE=’ls:pwd:date:’
+# history ignora dupplicados
+export HISTCONTROL=ignoredups
 
 
 #FUCK
@@ -38,6 +47,9 @@ alias curl='curl -w "\n"'
 # grep
 export GREP_COLOR="1;33"
 alias grep='grep --color=auto'
+
+# para matar moscas con cañones
+alias python='ipython'
 
 # pacman a color
 #alias pacman='pacman-color'

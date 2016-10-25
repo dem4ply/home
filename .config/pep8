@@ -1,2 +1,2 @@
 [pep8]
-ignore = E201,E202
+ignore = E201,E202,E221
