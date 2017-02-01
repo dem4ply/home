@@ -27,9 +27,19 @@
 	lg = log --graph --decorate --all --abbrev-commit --decorate --date=relative --format=format:'%C(auto)%h%C(reset) - %C(bold green)%s %C(dim white) - %C(dim green)(%ar)%C(reset) - %C(auto)<%an> %C(auto)%d'
 	diff-today = !git rev-list --all --reverse --since yesterday | head -n 1 | awk '{print ($1\"..HEAD\")}' | xargs git diff
 	meow = status -s
+	moe = status -sb
 	wtf = status -b
 	what = diff
 	huh = diff --staged
+
+	assume = update-index --assume-unchanged
+	# Reverse the above
+	unassume = update-index --no-assume-unchanged
+	# # Show the files that are currently assume-unchanged
+	assumed = "!git ls-files -v | grep ^h | cut -c 3-"
+
+	#top
+	top = !git log --all -M -C --name-only --format='format:' "$@" | sort | grep -v '^$' | uniq -c | sort | awk 'BEGIN {print \"count\tfile\"} {print $1 \"\t\" $2}' | sort -g
 [mergetool "diffconflicts"]
 	keepBackup = true
 	trustExitCode = true

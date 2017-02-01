@@ -6,6 +6,7 @@
   scroll_tabbar = True
   title_hide_sizetext = True
 [keybindings]
+  copy = <Primary><Shift>c
   cycle_next = <Primary><Shift><Alt>F9
   cycle_prev = <Primary><Shift><Alt>F9
   full_screen = <Primary><Shift><Alt>F11
@@ -15,6 +16,8 @@
   go_prev = None
   go_right = <Alt><Super>Right
   go_up = <Alt><Super>Up
+  insert_padded = <Alt>0
+  layout_launcher = <Primary><Shift><Alt>dead_diaeresis
   move_tab_left = <Primary><Shift><Alt>asterisk
   move_tab_right = <Primary><Shift><Alt>asterisk
   new_tab = <Primary><Shift>t
