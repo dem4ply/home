@@ -1,5 +1,4 @@
 [global_config]
-  dbus = True
   enabled_plugins = InactivityWatch, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   homogeneous_tabbar = False
   inactive_color_offset = 0.93
