@@ -1,7 +1,6 @@
 [global_config]
-  dbus = True
   enabled_plugins = InactivityWatch, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
-  homogeneous_tabbar = False
+  geometry_hinting = True
   inactive_color_offset = 0.93
   scroll_tabbar = True
   title_hide_sizetext = True
@@ -16,6 +15,7 @@
   go_prev = None
   go_right = <Alt><Super>Right
   go_up = <Alt><Super>Up
+  help = <Primary><Shift>F1
   insert_padded = <Alt>0
   layout_launcher = <Primary><Shift><Alt>dead_diaeresis
   move_tab_left = <Primary><Shift><Alt>asterisk
@@ -27,7 +27,9 @@
   resize_down = None
   resize_left = None
   resize_right = None
-  resize_up = None
+  resize_up = <Primary><Shift>Escape
+  scaled_zoom = <Primary><Shift><Alt>z
+  toggle_zoom = <Primary><Shift>z
   ungroup_tab = <Primary><Shift><Alt>F9
 [layouts]
   [[default]]
@@ -271,8 +273,8 @@
   [[default]]
     autoclean_groups = False
     background_darkness = 0.8
-    background_image = None
     background_type = transparent
+    cursor_color = "#00ff00"
     font = Monospace 10
     foreground_color = "#00ff00"
     scrollback_infinite = True

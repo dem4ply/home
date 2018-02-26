@@ -1,5 +1,6 @@
 [core]
 	editor = vim
+	pager = diff-so-fancy | less --tabs=3 -RFX
 [user]
 	name = dem4ply
 	email = dem4ply@gmail.com
