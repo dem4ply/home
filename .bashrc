@@ -5,7 +5,13 @@
 
 #PS1='[\u@\h \W]\$ '
 
+#PS4='+ $(date "+%s.%N")\011 '
+#exec 3>&2 2>/tmp/bashstart.$$.log
+#set -x
+
 export XDG_CONFIG_HOME="$HOME/.config"
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+
 
 #para que firefox no este lento
 export MOZ_DISABLE_PANGO=1
@@ -15,6 +21,10 @@ export ANDROID_HOME="$HOME/Android/Sdk"
 export DJANGO_LOG_LEVEL="INFO"
 # para inportar las gem de ruby
 PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
+PATH="/home/dem4ply/bin:$PATH"
+
+# Set up Node Version Manager
+# source /usr/share/nvm/init-nvm.sh
 
 
 export EDITOR=vim
@@ -34,11 +44,16 @@ alias fuck='sudo $(history -p \!\!)'
 alias please='sudo'
 alias sorry='fuck'
 
+alias virtualenv='virtualenv --system-site-packages'
+
 # ls
 alias ls='ls --color=auto'
 
+# regresa un comando de say aleatorio
+alias say='eval $(shuf -n1 -e ponysay cirnosay)'
+
 # clear
-alias clear='clear; fortune -c | ponysay'
+alias clear='clear; fortune -c | say'
 bind -x '"\C-l": clear'
 
 # curl
@@ -90,17 +105,24 @@ LIGHT_GREEN="\[\033[1;32m\]"
  LIGHT_GRAY="\[\033[0;37m\]"
  COLOR_NONE="\[\e[0m\]"
 
-function set_prompt() {
+function set_prompt {
 	if [ $? -eq 0 ]; then
 		emoticon=(^_^)─
 	else
 		emoticon=(O_O)─
 	fi
+
+	if [[ $TERM == xterm-termite ]]; then
+		. /etc/profile.d/vte.sh
+		__vte_prompt_command
+		PROMPT_COMMAND=set_prompt
+	fi
+
 	#get vitual env
-	if test -z "$VIRTUAL_ENV"; then
-		VENV=""
-	else
+	if [[ -n "$VIRTUAL_ENV" ]]; then
 		VENV="─${PURPLE}─[`basename \"$VIRTUAL_ENV\"`]"
+	else
+		VENV=""
 	fi
 
 	branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/[\1]/')
@@ -108,10 +130,12 @@ function set_prompt() {
 		branch="─${YELLOW}─${branch}"
 	fi
 
-
 	PS1="${COLOR_NONE}${LIGHT_GREEN}┌──${emoticon}[\u]─${BLUE}─[\w]${VENV}${branch}\n${GREEN}└─>${COLOR_NONE}${LIGHT_GREEN} "
+
 }
+
+source ~/garbage/autoenv/activate.sh
 
 PROMPT_COMMAND=set_prompt
 
-fortune -c | ponysay
+fortune -c | say
