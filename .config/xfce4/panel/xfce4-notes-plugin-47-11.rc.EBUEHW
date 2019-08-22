@@ -1,0 +1,24 @@
+
+[Notas]
+PosX=939
+PosY=184
+Width=300
+Height=380
+TabsOrder=Notas;
+LastTab=0
+Above=false
+Sticky=false
+Transparency=7
+Visible=false
+
+[Notas 2]
+PosX=2004
+PosY=201
+Width=300
+Height=380
+TabsOrder=Notas;
+LastTab=0
+Above=false
+Sticky=false
+Transparency=8
+Visible=true
