@@ -32,6 +32,8 @@
 	wtf = status -b
 	what = diff
 	huh = diff --staged
+	who = !git for-each-ref --format='%(committerdate) %09 %(authorname) %09%09 %(refname)' | sort -k1n
+	random = !git commit -m \"`fortune`\"
 
 	assume = update-index --assume-unchanged
 	# Reverse the above

@@ -1,0 +1,14 @@
+Use_Label=false
+Show_Values=false
+Show_Bars=true
+Colorize_Values=true
+Color_In=rgb(255,79,0)
+Color_Out=rgb(255,229,0)
+Text=wlp3s0
+Network_Device=wlp3s0
+Max_In=4096
+Max_Out=4096
+Auto_Max=true
+Update_Interval=300
+Values_As_Bits=false
+

@@ -1,7 +1,8 @@
-
 [Desktop Entry]
 Name=Terminator
+Name[es]=Terminator
 Comment=Multiple terminals in one window
+Comment[es]=Múltiples terminales en una ventana
 TryExec=terminator
 Exec=terminator
 Icon=terminator
@@ -10,6 +11,7 @@ Categories=GNOME;GTK;Utility;TerminalEmulator;System;
 StartupNotify=true
 X-Ubuntu-Gettext-Domain=terminator
 X-Ayatana-Desktop-Shortcuts=NewWindow;
+Keywords=terminal;shell;prompt;command;commandline;
 X-XFCE-Source=file:///usr/share/applications/terminator.desktop
 
 [NewWindow Shortcut Group]

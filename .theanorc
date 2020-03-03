@@ -1,3 +1,5 @@
 [global]
 OMP_NUM_THREADS=5
+device = cuda0
+floatX = float32
 openmp=True
