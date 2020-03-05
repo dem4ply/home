@@ -9,30 +9,27 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
+        <value type="int" value="8"/>
         <value type="int" value="18"/>
         <value type="int" value="20"/>
         <value type="int" value="5"/>
-        <value type="int" value="23"/>
         <value type="int" value="22"/>
-        <value type="int" value="2"/>
         <value type="int" value="16"/>
-        <value type="int" value="14"/>
         <value type="int" value="9"/>
         <value type="int" value="3"/>
         <value type="int" value="19"/>
-        <value type="int" value="4"/>
         <value type="int" value="7"/>
         <value type="int" value="13"/>
         <value type="int" value="6"/>
-        <value type="int" value="15"/>
         <value type="int" value="17"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
-        <value type="int" value="21"/>
-        <value type="int" value="25"/>
+        <value type="int" value="12"/>
+        <value type="int" value="4"/>
+        <value type="int" value="15"/>
       </property>
       <property name="length" type="uint" value="100"/>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-alpha" type="uint" value="50"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
@@ -43,7 +40,7 @@
         <value type="uint" value="2114"/>
         <value type="uint" value="65535"/>
       </property>
-      <property name="background-image" type="string" value="/home/dem4ply/Imagenes/wallpaper/4153271148_271ba97748_b.jpg"/>
+      <property name="background-image" type="string" value="/home/dem4ply/Imagenes/wallpaper/nagato-yuki-night-seifuku-short-hair-snow-suzumiya-haruhi-no-yuutsu-yuki-1080x1920.jpg"/>
       <property name="mode" type="uint" value="0"/>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="nrows" type="uint" value="1"/>
@@ -54,6 +51,7 @@
         <value type="double" value="0.000000"/>
         <value type="double" value="1.000000"/>
       </property>
+      <property name="icon-size" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -69,7 +67,6 @@
       <property name="names-visible" type="array">
         <value type="string" value="bluetooth"/>
         <value type="string" value="megasync"/>
-        <value type="string" value="wicd-client.py"/>
         <value type="string" value="steam"/>
         <value type="string" value="slack"/>
         <value type="string" value="orage"/>
@@ -100,7 +97,16 @@
       </property>
       <property name="show-frame" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="portapapeles"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="teams"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="deluge"/>
         <value type="string" value="wicd-client.py"/>
+        <value type="string" value="slack"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="unityhub"/>
         <value type="string" value="megasync"/>
         <value type="string" value="miniaplicación gestor de la red"/>
       </property>
@@ -130,27 +136,19 @@
     <property name="plugin-20" type="string" value="separator">
       <property name="style" type="uint" value="3"/>
     </property>
-    <property name="plugin-23" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15324447551.desktop"/>
-        <value type="string" value="13314296601.desktop"/>
-      </property>
-    </property>
     <property name="plugin-22" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="13314296813.desktop"/>
+        <value type="string" value="15829471273.desktop"/>
+        <value type="string" value="15829471344.desktop"/>
       </property>
       <property name="show-label" type="bool" value="false"/>
       <property name="move-first" type="bool" value="false"/>
     </property>
-    <property name="plugin-2" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="13315125952.desktop"/>
-        <value type="string" value="13438391311.desktop"/>
-      </property>
-    </property>
     <property name="plugin-5" type="string" value="launcher">
       <property name="items" type="array">
+        <value type="string" value="15829470921.desktop"/>
+        <value type="string" value="15829471052.desktop"/>
         <value type="string" value="13352907331.desktop"/>
       </property>
     </property>
@@ -186,11 +184,6 @@
       </property>
       <property name="ask-confirmation" type="bool" value="false"/>
     </property>
-    <property name="plugin-14" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="13900183321.desktop"/>
-      </property>
-    </property>
     <property name="plugin-19" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
@@ -198,8 +191,16 @@
     <property name="plugin-4" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="diskperf"/>
     <property name="plugin-11" type="string" value="xfce4-mount-plugin"/>
-    <property name="plugin-21" type="string" value="diskperf"/>
-    <property name="plugin-25" type="string" value="diskperf"/>
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="show-qr-code" type="bool" value="true"/>
+      </property>
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="whiskermenu"/>
+    <property name="plugin-12" type="string" value="netload"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>

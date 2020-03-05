@@ -26,5 +26,8 @@
     <property name="dpms-enabled" type="bool" value="false"/>
     <property name="inactivity-sleep-mode-on-battery" type="uint" value="1"/>
     <property name="show-tray-icon" type="bool" value="false"/>
+    <property name="general-notification" type="bool" value="true"/>
+    <property name="logind-handle-lid-switch" type="bool" value="true"/>
+    <property name="blank-on-battery" type="int" value="0"/>
   </property>
 </channel>
