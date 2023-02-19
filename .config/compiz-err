@@ -1,0 +1,433 @@
+compiz (core) - Info: Loading plugin: core
+compiz (core) - Debug: Trying to load core from: /home/dem4ply/.compiz-1/plugins/libcore.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libcore.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load core from: /usr/lib/compiz/libcore.so
+compiz (core) - Debug: dlopen failed: /usr/lib/compiz/libcore.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load core from: /usr/lib/compiz/libcore.so
+compiz (core) - Debug: dlopen failed: /usr/lib/compiz/libcore.so: cannot open shared object file: No such file or directory
+compiz (core) - Info: Starting plugin: core
+compiz (core) - Debug: Started plugin: core
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 672
+compiz (core) - Debug: - event window 0x3a00013
+compiz (core) - Debug: - x: 0 y: 0 width: 0 height: 0 border: 0, sibling: 0x0
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 1133
+compiz (core) - Debug: - event window 0x3a00016
+compiz (core) - Debug: - x: 0 y: 0 width: 0 height: 0 border: 0, sibling: 0x0
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 1213
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: 0 y: 31 width: 2560 height: 1409 border: 0, sibling: 0x0
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 1227
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: 0 y: 31 width: 2560 height: 1409 border: 0, sibling: 0x3a00016
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 1297
+compiz (core) - Debug: - event window 0x3a0001c
+compiz (core) - Debug: - x: 1116 y: 12 width: 235 height: 664 border: 0, sibling: 0x3a00016
+compiz (core) - Info: Loading plugin: ccp
+compiz (core) - Debug: Trying to load ccp from: /home/dem4ply/.compiz-1/plugins/libccp.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libccp.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load ccp from: /usr/lib/compiz/libccp.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libccp.so
+compiz (core) - Debug: Loaded plugin ccp from: /usr/lib/compiz/libccp.so
+compiz (core) - Info: Starting plugin: ccp
+compiz (core) - Debug: Started plugin: ccp
+compiz (core) - Info: Loading plugin: composite
+compiz (core) - Debug: Trying to load composite from: /home/dem4ply/.compiz-1/plugins/libcomposite.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libcomposite.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load composite from: /usr/lib/compiz/libcomposite.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libcomposite.so
+compiz (core) - Debug: Loaded plugin composite from: /usr/lib/compiz/libcomposite.so
+compiz (core) - Info: Starting plugin: composite
+compiz (core) - Debug: Started plugin: composite
+compiz (core) - Info: Loading plugin: opengl
+compiz (core) - Debug: Trying to load opengl from: /home/dem4ply/.compiz-1/plugins/libopengl.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libopengl.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load opengl from: /usr/lib/compiz/libopengl.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libopengl.so
+compiz (core) - Debug: Loaded plugin opengl from: /usr/lib/compiz/libopengl.so
+compiz (core) - Info: Starting plugin: opengl
+Compiz (opengl) - Info: GLX_EXT_buffer_age is supported
+compiz (core) - Debug: Started plugin: opengl
+compiz (core) - Info: Loading plugin: decor
+compiz (core) - Debug: Trying to load decor from: /home/dem4ply/.compiz-1/plugins/libdecor.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libdecor.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load decor from: /usr/lib/compiz/libdecor.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libdecor.so
+compiz (core) - Debug: Loaded plugin decor from: /usr/lib/compiz/libdecor.so
+compiz (core) - Info: Starting plugin: decor
+compiz (core) - Debug: Started plugin: decor
+compiz (core) - Info: Loading plugin: resize
+compiz (core) - Debug: Trying to load resize from: /home/dem4ply/.compiz-1/plugins/libresize.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libresize.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load resize from: /usr/lib/compiz/libresize.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libresize.so
+compiz (core) - Debug: Loaded plugin resize from: /usr/lib/compiz/libresize.so
+compiz (core) - Info: Starting plugin: resize
+compiz (core) - Debug: Started plugin: resize
+compiz (core) - Info: Loading plugin: place
+compiz (core) - Debug: Trying to load place from: /home/dem4ply/.compiz-1/plugins/libplace.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libplace.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load place from: /usr/lib/compiz/libplace.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libplace.so
+compiz (core) - Debug: Loaded plugin place from: /usr/lib/compiz/libplace.so
+compiz (core) - Info: Starting plugin: place
+compiz (core) - Debug: Started plugin: place
+compiz (core) - Info: Loading plugin: move
+compiz (core) - Debug: Trying to load move from: /home/dem4ply/.compiz-1/plugins/libmove.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libmove.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load move from: /usr/lib/compiz/libmove.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libmove.so
+compiz (core) - Debug: Loaded plugin move from: /usr/lib/compiz/libmove.so
+compiz (core) - Info: Starting plugin: move
+compiz (core) - Debug: Started plugin: move
+compiz (core) - Info: Loading plugin: compiztoolbox
+compiz (core) - Debug: Trying to load compiztoolbox from: /home/dem4ply/.compiz-1/plugins/libcompiztoolbox.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libcompiztoolbox.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load compiztoolbox from: /usr/lib/compiz/libcompiztoolbox.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libcompiztoolbox.so
+compiz (core) - Debug: Loaded plugin compiztoolbox from: /usr/lib/compiz/libcompiztoolbox.so
+compiz (core) - Info: Starting plugin: compiztoolbox
+compiz (core) - Debug: Started plugin: compiztoolbox
+compiz (core) - Info: Loading plugin: staticswitcher
+compiz (core) - Debug: Trying to load staticswitcher from: /home/dem4ply/.compiz-1/plugins/libstaticswitcher.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libstaticswitcher.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load staticswitcher from: /usr/lib/compiz/libstaticswitcher.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libstaticswitcher.so
+compiz (core) - Debug: Loaded plugin staticswitcher from: /usr/lib/compiz/libstaticswitcher.so
+compiz (core) - Info: Starting plugin: staticswitcher
+compiz (core) - Debug: Started plugin: staticswitcher
+compiz (core) - Info: Loading plugin: regex
+compiz (core) - Debug: Trying to load regex from: /home/dem4ply/.compiz-1/plugins/libregex.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libregex.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load regex from: /usr/lib/compiz/libregex.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libregex.so
+compiz (core) - Debug: Loaded plugin regex from: /usr/lib/compiz/libregex.so
+compiz (core) - Info: Starting plugin: regex
+compiz (core) - Debug: Started plugin: regex
+compiz (core) - Info: Loading plugin: animation
+compiz (core) - Debug: Trying to load animation from: /home/dem4ply/.compiz-1/plugins/libanimation.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libanimation.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load animation from: /usr/lib/compiz/libanimation.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libanimation.so
+compiz (core) - Debug: Loaded plugin animation from: /usr/lib/compiz/libanimation.so
+compiz (core) - Info: Starting plugin: animation
+compiz (core) - Debug: Started plugin: animation
+compiz (core) - Info: Loading plugin: wall
+compiz (core) - Debug: Trying to load wall from: /home/dem4ply/.compiz-1/plugins/libwall.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libwall.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load wall from: /usr/lib/compiz/libwall.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libwall.so
+compiz (core) - Debug: Loaded plugin wall from: /usr/lib/compiz/libwall.so
+compiz (core) - Info: Starting plugin: wall
+compiz (core) - Debug: Started plugin: wall
+compiz (core) - Info: Stopping plugin: wall
+compiz (core) - Debug: Stopped plugin: wall
+compiz (core) - Info: Stopping plugin: animation
+compiz (core) - Debug: Stopped plugin: animation
+compiz (core) - Info: Stopping plugin: regex
+compiz (core) - Debug: Stopped plugin: regex
+compiz (core) - Info: Stopping plugin: staticswitcher
+compiz (core) - Debug: Stopped plugin: staticswitcher
+compiz (core) - Info: Stopping plugin: compiztoolbox
+compiz (core) - Debug: Stopped plugin: compiztoolbox
+compiz (core) - Info: Stopping plugin: move
+compiz (core) - Debug: Stopped plugin: move
+compiz (core) - Info: Stopping plugin: place
+compiz (core) - Debug: Stopped plugin: place
+compiz (core) - Info: Stopping plugin: resize
+compiz (core) - Debug: Stopped plugin: resize
+compiz (core) - Info: Stopping plugin: decor
+compiz (core) - Debug: Stopped plugin: decor
+compiz (core) - Info: Stopping plugin: opengl
+compiz (core) - Debug: Stopped plugin: opengl
+compiz (core) - Info: Loading plugin: crashhandler
+compiz (core) - Debug: Trying to load crashhandler from: /home/dem4ply/.compiz-1/plugins/libcrashhandler.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libcrashhandler.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load crashhandler from: /usr/lib/compiz/libcrashhandler.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libcrashhandler.so
+compiz (core) - Debug: Loaded plugin crashhandler from: /usr/lib/compiz/libcrashhandler.so
+compiz (core) - Info: Starting plugin: crashhandler
+compiz (core) - Debug: Started plugin: crashhandler
+compiz (core) - Info: Starting plugin: opengl
+Compiz (opengl) - Info: GLX_EXT_buffer_age is supported
+compiz (core) - Debug: Started plugin: opengl
+compiz (core) - Info: Loading plugin: showrepaint
+compiz (core) - Debug: Trying to load showrepaint from: /home/dem4ply/.compiz-1/plugins/libshowrepaint.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libshowrepaint.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load showrepaint from: /usr/lib/compiz/libshowrepaint.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libshowrepaint.so
+compiz (core) - Debug: Loaded plugin showrepaint from: /usr/lib/compiz/libshowrepaint.so
+compiz (core) - Info: Starting plugin: showrepaint
+compiz (core) - Debug: Started plugin: showrepaint
+compiz (core) - Info: Starting plugin: compiztoolbox
+compiz (core) - Debug: Started plugin: compiztoolbox
+compiz (core) - Info: Loading plugin: copytex
+compiz (core) - Debug: Trying to load copytex from: /home/dem4ply/.compiz-1/plugins/libcopytex.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libcopytex.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load copytex from: /usr/lib/compiz/libcopytex.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libcopytex.so
+compiz (core) - Debug: Loaded plugin copytex from: /usr/lib/compiz/libcopytex.so
+compiz (core) - Info: Starting plugin: copytex
+compiz (core) - Debug: Started plugin: copytex
+compiz (core) - Info: Loading plugin: imgjpeg
+compiz (core) - Debug: Trying to load imgjpeg from: /home/dem4ply/.compiz-1/plugins/libimgjpeg.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libimgjpeg.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load imgjpeg from: /usr/lib/compiz/libimgjpeg.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libimgjpeg.so
+compiz (core) - Debug: Loaded plugin imgjpeg from: /usr/lib/compiz/libimgjpeg.so
+compiz (core) - Info: Starting plugin: imgjpeg
+compiz (core) - Debug: Started plugin: imgjpeg
+compiz (core) - Info: Loading plugin: maximumize
+compiz (core) - Debug: Trying to load maximumize from: /home/dem4ply/.compiz-1/plugins/libmaximumize.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libmaximumize.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load maximumize from: /usr/lib/compiz/libmaximumize.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libmaximumize.so
+compiz (core) - Debug: Loaded plugin maximumize from: /usr/lib/compiz/libmaximumize.so
+compiz (core) - Info: Starting plugin: maximumize
+compiz (core) - Debug: Started plugin: maximumize
+compiz (core) - Info: Loading plugin: switcher
+compiz (core) - Debug: Trying to load switcher from: /home/dem4ply/.compiz-1/plugins/libswitcher.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libswitcher.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load switcher from: /usr/lib/compiz/libswitcher.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libswitcher.so
+compiz (core) - Debug: Loaded plugin switcher from: /usr/lib/compiz/libswitcher.so
+compiz (core) - Info: Starting plugin: switcher
+compiz (core) - Debug: Started plugin: switcher
+compiz (core) - Info: Starting plugin: decor
+compiz (core) - Debug: Started plugin: decor
+compiz (core) - Info: Loading plugin: firepaint
+compiz (core) - Debug: Trying to load firepaint from: /home/dem4ply/.compiz-1/plugins/libfirepaint.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libfirepaint.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load firepaint from: /usr/lib/compiz/libfirepaint.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libfirepaint.so
+compiz (core) - Debug: Loaded plugin firepaint from: /usr/lib/compiz/libfirepaint.so
+compiz (core) - Info: Starting plugin: firepaint
+compiz (core) - Debug: Started plugin: firepaint
+compiz (core) - Info: Loading plugin: grid
+compiz (core) - Debug: Trying to load grid from: /home/dem4ply/.compiz-1/plugins/libgrid.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libgrid.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load grid from: /usr/lib/compiz/libgrid.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libgrid.so
+compiz (core) - Debug: Loaded plugin grid from: /usr/lib/compiz/libgrid.so
+compiz (core) - Info: Starting plugin: grid
+compiz (core) - Debug: Started plugin: grid
+compiz (core) - Info: Loading plugin: imgpng
+compiz (core) - Debug: Trying to load imgpng from: /home/dem4ply/.compiz-1/plugins/libimgpng.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libimgpng.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load imgpng from: /usr/lib/compiz/libimgpng.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libimgpng.so
+compiz (core) - Debug: Loaded plugin imgpng from: /usr/lib/compiz/libimgpng.so
+compiz (core) - Info: Starting plugin: imgpng
+compiz (core) - Debug: Started plugin: imgpng
+compiz (core) - Info: Loading plugin: imgsvg
+compiz (core) - Debug: Trying to load imgsvg from: /home/dem4ply/.compiz-1/plugins/libimgsvg.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libimgsvg.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load imgsvg from: /usr/lib/compiz/libimgsvg.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libimgsvg.so
+compiz (core) - Debug: Loaded plugin imgsvg from: /usr/lib/compiz/libimgsvg.so
+compiz (core) - Info: Starting plugin: imgsvg
+compiz (core) - Debug: Started plugin: imgsvg
+compiz (core) - Info: Loading plugin: mousepoll
+compiz (core) - Debug: Trying to load mousepoll from: /home/dem4ply/.compiz-1/plugins/libmousepoll.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libmousepoll.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load mousepoll from: /usr/lib/compiz/libmousepoll.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libmousepoll.so
+compiz (core) - Debug: Loaded plugin mousepoll from: /usr/lib/compiz/libmousepoll.so
+compiz (core) - Info: Starting plugin: mousepoll
+compiz (core) - Debug: Started plugin: mousepoll
+compiz (core) - Info: Starting plugin: move
+compiz (core) - Debug: Started plugin: move
+compiz (core) - Info: Loading plugin: neg
+compiz (core) - Debug: Trying to load neg from: /home/dem4ply/.compiz-1/plugins/libneg.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libneg.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load neg from: /usr/lib/compiz/libneg.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libneg.so
+compiz (core) - Debug: Loaded plugin neg from: /usr/lib/compiz/libneg.so
+compiz (core) - Info: Starting plugin: neg
+compiz (core) - Debug: Started plugin: neg
+compiz (core) - Info: Loading plugin: opacify
+compiz (core) - Debug: Trying to load opacify from: /home/dem4ply/.compiz-1/plugins/libopacify.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libopacify.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load opacify from: /usr/lib/compiz/libopacify.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libopacify.so
+compiz (core) - Debug: Loaded plugin opacify from: /usr/lib/compiz/libopacify.so
+compiz (core) - Info: Starting plugin: opacify
+compiz (core) - Debug: Started plugin: opacify
+compiz (core) - Info: Starting plugin: place
+compiz (core) - Debug: Started plugin: place
+compiz (core) - Info: Loading plugin: put
+compiz (core) - Debug: Trying to load put from: /home/dem4ply/.compiz-1/plugins/libput.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libput.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load put from: /usr/lib/compiz/libput.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libput.so
+compiz (core) - Debug: Loaded plugin put from: /usr/lib/compiz/libput.so
+compiz (core) - Info: Starting plugin: put
+compiz (core) - Debug: Started plugin: put
+compiz (core) - Info: Starting plugin: regex
+compiz (core) - Debug: Started plugin: regex
+compiz (core) - Info: Starting plugin: resize
+compiz (core) - Debug: Started plugin: resize
+compiz (core) - Info: Loading plugin: resizeinfo
+compiz (core) - Debug: Trying to load resizeinfo from: /home/dem4ply/.compiz-1/plugins/libresizeinfo.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libresizeinfo.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load resizeinfo from: /usr/lib/compiz/libresizeinfo.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libresizeinfo.so
+compiz (core) - Debug: Loaded plugin resizeinfo from: /usr/lib/compiz/libresizeinfo.so
+compiz (core) - Info: Starting plugin: resizeinfo
+compiz (core) - Debug: Started plugin: resizeinfo
+compiz (core) - Info: Loading plugin: text
+compiz (core) - Debug: Trying to load text from: /home/dem4ply/.compiz-1/plugins/libtext.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libtext.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load text from: /usr/lib/compiz/libtext.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libtext.so
+compiz (core) - Debug: Loaded plugin text from: /usr/lib/compiz/libtext.so
+compiz (core) - Info: Starting plugin: text
+compiz (core) - Debug: Started plugin: text
+compiz (core) - Info: Loading plugin: thumbnail
+compiz (core) - Debug: Trying to load thumbnail from: /home/dem4ply/.compiz-1/plugins/libthumbnail.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libthumbnail.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load thumbnail from: /usr/lib/compiz/libthumbnail.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libthumbnail.so
+compiz (core) - Debug: Loaded plugin thumbnail from: /usr/lib/compiz/libthumbnail.so
+compiz (core) - Info: Starting plugin: thumbnail
+compiz (core) - Debug: Started plugin: thumbnail
+compiz (core) - Info: Loading plugin: titleinfo
+compiz (core) - Debug: Trying to load titleinfo from: /home/dem4ply/.compiz-1/plugins/libtitleinfo.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libtitleinfo.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load titleinfo from: /usr/lib/compiz/libtitleinfo.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libtitleinfo.so
+compiz (core) - Debug: Loaded plugin titleinfo from: /usr/lib/compiz/libtitleinfo.so
+compiz (core) - Info: Starting plugin: titleinfo
+compiz (core) - Debug: Started plugin: titleinfo
+compiz (core) - Info: Loading plugin: vpswitch
+compiz (core) - Debug: Trying to load vpswitch from: /home/dem4ply/.compiz-1/plugins/libvpswitch.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libvpswitch.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load vpswitch from: /usr/lib/compiz/libvpswitch.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libvpswitch.so
+compiz (core) - Debug: Loaded plugin vpswitch from: /usr/lib/compiz/libvpswitch.so
+compiz (core) - Info: Starting plugin: vpswitch
+compiz (core) - Debug: Started plugin: vpswitch
+compiz (core) - Info: Starting plugin: wall
+compiz (core) - Debug: Started plugin: wall
+compiz (core) - Info: Loading plugin: wobbly
+compiz (core) - Debug: Trying to load wobbly from: /home/dem4ply/.compiz-1/plugins/libwobbly.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libwobbly.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load wobbly from: /usr/lib/compiz/libwobbly.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libwobbly.so
+compiz (core) - Debug: Loaded plugin wobbly from: /usr/lib/compiz/libwobbly.so
+compiz (core) - Info: Starting plugin: wobbly
+compiz (core) - Debug: Started plugin: wobbly
+compiz (core) - Info: Loading plugin: addhelper
+compiz (core) - Debug: Trying to load addhelper from: /home/dem4ply/.compiz-1/plugins/libaddhelper.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libaddhelper.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load addhelper from: /usr/lib/compiz/libaddhelper.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libaddhelper.so
+compiz (core) - Debug: Loaded plugin addhelper from: /usr/lib/compiz/libaddhelper.so
+compiz (core) - Info: Starting plugin: addhelper
+compiz (core) - Debug: Started plugin: addhelper
+compiz (core) - Info: Starting plugin: animation
+compiz (core) - Debug: Started plugin: animation
+compiz (core) - Info: Loading plugin: animationaddon
+compiz (core) - Debug: Trying to load animationaddon from: /home/dem4ply/.compiz-1/plugins/libanimationaddon.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libanimationaddon.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load animationaddon from: /usr/lib/compiz/libanimationaddon.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libanimationaddon.so
+compiz (core) - Debug: Loaded plugin animationaddon from: /usr/lib/compiz/libanimationaddon.so
+compiz (core) - Info: Starting plugin: animationaddon
+compiz (core) - Debug: Started plugin: animationaddon
+compiz (core) - Info: Loading plugin: animationjc
+compiz (core) - Debug: Trying to load animationjc from: /home/dem4ply/.compiz-1/plugins/libanimationjc.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libanimationjc.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load animationjc from: /usr/lib/compiz/libanimationjc.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libanimationjc.so
+compiz (core) - Debug: Loaded plugin animationjc from: /usr/lib/compiz/libanimationjc.so
+compiz (core) - Info: Starting plugin: animationjc
+compiz (core) - Debug: Started plugin: animationjc
+compiz (core) - Info: Loading plugin: expo
+compiz (core) - Debug: Trying to load expo from: /home/dem4ply/.compiz-1/plugins/libexpo.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libexpo.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load expo from: /usr/lib/compiz/libexpo.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libexpo.so
+compiz (core) - Debug: Loaded plugin expo from: /usr/lib/compiz/libexpo.so
+compiz (core) - Info: Starting plugin: expo
+compiz (core) - Debug: Started plugin: expo
+compiz (core) - Info: Loading plugin: notification
+compiz (core) - Debug: Trying to load notification from: /home/dem4ply/.compiz-1/plugins/libnotification.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libnotification.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load notification from: /usr/lib/compiz/libnotification.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libnotification.so
+compiz (core) - Debug: Loaded plugin notification from: /usr/lib/compiz/libnotification.so
+compiz (core) - Info: Starting plugin: notification
+compiz (core) - Debug: Started plugin: notification
+compiz (core) - Info: Loading plugin: scale
+compiz (core) - Debug: Trying to load scale from: /home/dem4ply/.compiz-1/plugins/libscale.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libscale.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load scale from: /usr/lib/compiz/libscale.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libscale.so
+compiz (core) - Debug: Loaded plugin scale from: /usr/lib/compiz/libscale.so
+compiz (core) - Info: Starting plugin: scale
+compiz (core) - Debug: Started plugin: scale
+compiz (core) - Info: Loading plugin: scaleaddon
+compiz (core) - Debug: Trying to load scaleaddon from: /home/dem4ply/.compiz-1/plugins/libscaleaddon.so
+compiz (core) - Debug: dlopen failed: /home/dem4ply/.compiz-1/plugins/libscaleaddon.so: cannot open shared object file: No such file or directory
+compiz (core) - Debug: Trying to load scaleaddon from: /usr/lib/compiz/libscaleaddon.so
+compiz (core) - Debug: Opened library: /usr/lib/compiz/libscaleaddon.so
+compiz (core) - Debug: Loaded plugin scaleaddon from: /usr/lib/compiz/libscaleaddon.so
+compiz (core) - Info: Starting plugin: scaleaddon
+compiz (core) - Debug: Started plugin: scaleaddon
+compiz (core) - Info: Unloading plugin: staticswitcher
+compiz (core) - Debug: Closing library: staticswitcher
+compiz (core) - Debug: refusing to manage window 0x3a00013
+compiz (core) - Debug: received event:
+compiz (core) - Debug: - event serial: 672
+compiz (core) - Debug: - event window 0x3a00013
+compiz (core) - Debug: - x: 0 y: 0 width: 0 height: 0 border: 0, sibling: 0x0
+compiz (core) - Debug: refusing to manage window 0x3a00016
+compiz (core) - Debug: received event:
+compiz (core) - Debug: - event serial: 1133
+compiz (core) - Debug: - event window 0x3a00016
+compiz (core) - Debug: - x: 0 y: 0 width: 0 height: 0 border: 0, sibling: 0x0
+compiz (core) - Debug: refusing to manage window 0x3a00019
+compiz (core) - Debug: received event:
+compiz (core) - Debug: - event serial: 1213
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: 0 y: 31 width: 2560 height: 1409 border: 0, sibling: 0x0
+compiz (core) - Debug: received event:
+compiz (core) - Debug: - event serial: 1227
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: 0 y: 31 width: 2560 height: 1409 border: 0, sibling: 0x3a00016
+compiz (core) - Debug: refusing to manage window 0x3a0001c
+compiz (core) - Debug: received event:
+compiz (core) - Debug: - event serial: 1297
+compiz (core) - Debug: - event window 0x3a0001c
+compiz (core) - Debug: - x: 1116 y: 12 width: 235 height: 664 border: 0, sibling: 0x3a00016
+compiz (core) - Debug: refusing to manage window 0x3a0014c
+compiz (core) - Debug: refusing to manage window 0x3a0021d
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 6590
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: 0 y: 31 width: 2560 height: 1409 border: 0, sibling: 0x3a0001c
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 7031
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: 0 y: 31 width: 2562 height: 1410 border: 0, sibling: 0x3a0001c
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 7050
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: -342 y: 289 width: 1364 height: 712 border: 0, sibling: 0x3a0001c
+compiz (core) - Debug: received event:
+compiz (core) - Debug: - event serial: 7031
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: 0 y: 31 width: 2562 height: 1410 border: 0, sibling: 0x3a0001c
+compiz (core) - Debug: received event:
+compiz (core) - Debug: - event serial: 7050
+compiz (core) - Debug: - event window 0x3a00019
+compiz (core) - Debug: - x: -342 y: 289 width: 1364 height: 712 border: 0, sibling: 0x3a0001c
+compiz (core) - Debug: pending request:
+compiz (core) - Debug: - event serial: 7468
+compiz (core) - Debug: - event window 0x3a00013
+compiz (core) - Debug: - x: 0 y: 0 width: 1366 height: 31 border: 0, sibling: 0x3a00019
