@@ -60,11 +60,14 @@ bind -x '"\C-l": clear'
 alias curl='curl -w "\n"'
 
 # grep
-export GREP_COLOR="1;33"
+export GREP_COLOR="mt=1;33"
 alias grep='grep --color=auto'
 
 # para matar moscas con cañones
 alias python='ipython'
+alias his='history'
+
+alias cut_line='cut -c-$COLUMNS'
 
 # pacman a color
 #alias pacman='pacman-color'
@@ -105,6 +108,15 @@ LIGHT_GREEN="\[\033[1;32m\]"
  LIGHT_GRAY="\[\033[0;37m\]"
  COLOR_NONE="\[\e[0m\]"
 
+
+source /etc/profile.d/vte.sh
+
+if [[ $(type -t "__vte_prompt_command") != function ]]; then
+    function __vte_prompt_command(){
+        return 0
+    }
+fi
+
 function set_prompt {
 	if [ $? -eq 0 ]; then
 		emoticon=(^_^)─
@@ -112,11 +124,7 @@ function set_prompt {
 		emoticon=(O_O)─
 	fi
 
-	if [[ $TERM == xterm-termite ]]; then
-		. /etc/profile.d/vte.sh
-		__vte_prompt_command
-		PROMPT_COMMAND=set_prompt
-	fi
+	__vte_prompt_command
 
 	#get vitual env
 	if [[ -n "$VIRTUAL_ENV" ]]; then
