@@ -1,0 +1,28 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/*.meta": true,
+    "**/.DS_Store": true
+  },
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [ "j", "k" ],
+      "after": [ "<ESC>" ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [ "j", "k" ],
+      "after": [ "<ESC>" ]
+    }
+  ],
+  "editor.autoClosingBrackets": "never",
+}
